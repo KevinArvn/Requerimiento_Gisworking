@@ -40,12 +40,12 @@ POST Exportación de Datos Excel Nuevo: Exporta datos al template "okeynuevo-xls
 POST Exportación de Datos PDF Nuevo: Exporta datos al template "okeynuevo-pdf"
 POST Exportar Datos Excel: Exporta datos al template "horarios-pdf"
 
--Carpeta "Muestra de Contenido"
+- Carpeta "Muestra de Contenido"
 
--GET Mostrar contenido de Report-Excel: Muestra el contenido pedido en excel-main con la petición antes hecha 
+- GET Mostrar contenido de Report-Excel: Muestra el contenido pedido en excel-main con la petición antes hecha 
     - (Si guardamos el archivo en "Save Reponse" con "Save to a file" se crea un archivo response.xlsx con los datos)  
--GET Mostrar contenido de Report-PDF: Muestra el contenido pedido en saldra-main con la peticion antes hecha
+- GET Mostrar contenido de Report-PDF: Muestra el contenido pedido en saldra-main con la peticion antes hecha
     - (Si guardamos el archivo en "Save Reponse" con "Save to a file" se crea un archivo response.pdf con los datos)  
--GET Mostrar todos los Reports: Muestra todos los reportes hechos y guardados en Reports*
+- GET Mostrar todos los Reports: Muestra todos los reportes hechos y guardados en Reports*
 
 - Se podrá acceder a "Reports" en localhost:5488, apretando sobre el botón de herramienta ubicado en la parte superior derecha y accediendo a Reports
