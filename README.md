@@ -49,3 +49,7 @@ POST Exportar Datos Excel: Exporta datos al template "horarios-pdf"
 - GET Mostrar todos los Reports: Muestra todos los reportes hechos y guardados en Reports*
 
 - Se podrá acceder a "Reports" en localhost:5488, apretando sobre el botón de herramienta ubicado en la parte superior derecha y accediendo a Reports
+
+- No puedo crear mas de 5 templates porque tengo la version gratuita de jsreport y me aparece este mensaje:
+ "Free license is limited to maximum 5 templates. Your jsreport instance is now running in one month trial. Please buy the enterprise license if you want to continue using jsreport after the trial expires." Eso es todo.
+ 
