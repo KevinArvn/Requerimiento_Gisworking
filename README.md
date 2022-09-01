@@ -1,7 +1,7 @@
-Hola BUENAS !
+Hola!
 Aca les comparto el nuevo link para importar en Postman: 
-https://www.getpostman.com/collections/0a5b265b5e47d58dd1be
-Tambien subo el nuevo archivo para descargar en el repositorio "templates.jsreport" y actualizo README.md 
+https://www.getpostman.com/collections/9bdd35ff02b8d3b9f72c
+Tambien subo el nuevo archivo para descargar en el repositorio "templatesnew.jsreport" y actualizo README.md 
 
 
 # Importar templatesnew.jsreport
