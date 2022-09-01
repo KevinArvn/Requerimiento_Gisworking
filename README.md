@@ -11,14 +11,20 @@ Tambien subo el nuevo archivo para descargar en el repositorio "templates.jsrepo
 - Descargamos el archivo "Prueba.jsreport" del repositorio https://github.com/KevinArvn/requerimiento_gisworking
 - Abrimos en el navegador: (http://localhost:5488/)
 - Importamos el archivo "Prueba.jsreport" en JsReport
-- Se creará una carpeta llamada "Peliculas":
+- Se creara una carpeta llamada "Graficos"
+  -- template "graph-pdf" con configuracion para crear un archicvo PDF 
+- Siguiendo de esta se creará una carpeta llamada "Peliculas":
   --template "excel-main" con configuración para crear archivos .xlsx
   --template "saldra-main" con configuración para crear archivos PDF
 - Tambien otra carperta llamada "Series"
   --template "okeynuevo-xlsx" con configuración para crear archivos .xlsx
   --template "okeynuevo-xlsx" con configuración para crear archivos PDF
-- Y por ultimo otra carpeta llamada "Horarios Report"
+-  Tambien otra carpeta llamada "Horarios Report"
   --template "horarios-pdf" con configuración para crear archivos PDF
+  --template "horarios-xlsx" con configuración para crear archivos xlsx
+-Por ultimo se creara una carpeta llamada "Sueldos"
+  --template "sueld-pdf" con configuración para crear archivos PDF
+  --template "sueld-xlsx" con configuración para crear archivos xlsx
   
   (Todos con sus respectivos .css)
 
