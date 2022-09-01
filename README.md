@@ -4,11 +4,11 @@ https://www.getpostman.com/collections/0a5b265b5e47d58dd1be
 Tambien subo el nuevo archivo para descargar en el repositorio "templates.jsreport" y actualizo README.md 
 
 
-# Importar Prueba.Jsreport
+# Importar templatesnew.jsreport
 
 - Instala jsreport con configuracion de puerto 5488
 - Ejecute JsReport con: jsreport start
-- Descargamos el archivo "Prueba.jsreport" del repositorio https://github.com/KevinArvn/requerimiento_gisworking
+- Descargamos el archivo "templatesnew.jsreport" del repositorio https://github.com/KevinArvn/requerimiento_gisworking
 - Abrimos en el navegador: (http://localhost:5488/)
 - Importamos el archivo "Prueba.jsreport" en JsReport
 - Se creara una carpeta llamada "Graficos"
@@ -32,19 +32,28 @@ Tambien subo el nuevo archivo para descargar en el repositorio "templates.jsrepo
 
  # Carpeta "Creación de Templates"
 
- - POST Crear Template PDF: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templates.jsreport")
- - POST Crear Template Excel: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templates.jsreport")
- - POST Creación Template PDF Nuevo: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templates.jsreport")
- - POST Creación Template Excel Nuevo: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templates.jsreport")
-  - POST Crear Template Horarios-PDF: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templates.jsreport")
+ - POST Crear Template PDF: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templatesnew.jsreport")
+ - POST Crear Template Excel: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templatesnew.jsreport")
+ - POST Creación Template PDF Nuevo: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templatesnew.jsreport")
+ - POST Creación Template Excel Nuevo: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templatesnew.jsreport")
+  - POST Crear Template Horarios-PDF: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templatesnew.jsreport")
+  - POST Crear Template Horarios-Excel: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templatesnew.jsreport")
+  - POST Crear Template Sueldos-Excel: Este Endpoint crea un template con configuración html-to-xlsx (ya está creado si importamos antes "templatesnew.jsreport")
+  - POST Crear Template Sueldos-PDF: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templatesnew.jsreport")
+ - POST Crear Template Grafico: Este Endpoint crea un template con configuración chrome-pdf (ya está creado si importamos antes "templatesnew.jsreport")
+ 
   
   # Carpeta "Exportación"
 
 POST Exportar Datos Excel: Exporta datos al template "excel-main"
 POST Exportar Datos PDF: Exporta datos al template "saldra-main"
-POST Exportación de Datos Excel Nuevo: Exporta datos al template "okeynuevo-xlsx"
 POST Exportación de Datos PDF Nuevo: Exporta datos al template "okeynuevo-pdf"
-POST Exportar Datos Excel: Exporta datos al template "horarios-pdf"
+POST Exportación de Datos Excel Nuevo: Exporta datos al template "okeynuevo-xlsx"
+POST Exportar Datos Horas PDF: Exporta datos al template "horarios-pdf"
+POST Exportar Datos Horas Excel: Exporta datos al template "horarios-xlsx"
+POST Exportar Datos Sueldos Excel: Exporta datos al template "sueld-xlsx"
+POST Exportar Datos Sueldos PDF: Exporta datos al template "sueld-pdf"
+
 
 - Carpeta "Muestra de Contenido"
 
@@ -56,6 +65,5 @@ POST Exportar Datos Excel: Exporta datos al template "horarios-pdf"
 
 - Se podrá acceder a "Reports" en localhost:5488, apretando sobre el botón de herramienta ubicado en la parte superior derecha y accediendo a Reports
 
-- No puedo crear mas de 5 templates porque tengo la version gratuita de jsreport y me aparece este mensaje:
- "Free license is limited to maximum 5 templates. Your jsreport instance is now running in one month trial. Please buy the enterprise license if you want to continue using jsreport after the trial expires." Eso es todo.
+Eso es todo.
  
