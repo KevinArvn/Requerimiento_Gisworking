@@ -1,4 +1,4 @@
-- Hola! Aca les comparto el nuevo link para importar en Postman: 
+- Hola! Aca les comparto el nuevo link para importar en Postman:
  https://www.getpostman.com/collections/9bdd35ff02b8d3b9f72c
 - Tambien subo el nuevo archivo para descargar en el repositorio "templatesnew.jsreport" y actualizo README.md 
 - Aqui esta la invitacion para poder interactuar con Postman:
